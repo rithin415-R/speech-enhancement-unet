@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Downloaded corpora and the archives they come from.
+# download_data.py fetches these on demand; they are ~1 GB and must not be
+# committed.
+data/
+dev-clean.tar.gz
+esc50.zip
+
+# Generated at runtime by the Gradio app
+spectrogram_comparison.png
+
+# Editor and OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+torch
+torchaudio
+numpy
+scipy
+scikit-learn
+matplotlib
+librosa
+soundfile
+gradio
+pesq
+pystoi
+openai-whisper
